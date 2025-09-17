@@ -18,7 +18,7 @@ This project implements an autonomous parcel sorting system using mobile robots 
 | Packages Delivered (10 min, 2 bots) | 55 packages |
 | Package Drop Time | 1.5 seconds |
 | Drop Accuracy | 90% |
-## 🏗️ System Architecture
+## System Architecture
 
 ### Hardware Components
 - **Robot Dimensions**: 6x6 inch constraint
@@ -37,7 +37,7 @@ This project implements an autonomous parcel sorting system using mobile robots 
 - Swarm coordination algorithms
 - Real-time command distribution system
 
-## 🎮 How It Works
+## How It Works
 
 1. **Package Input**: Operators load packages at two induct zones
 2. **Destination Identification**: QR codes on packages are scanned to determine destination chutes
@@ -47,7 +47,7 @@ This project implements an autonomous parcel sorting system using mobile robots 
 6. **Package Delivery**: Servo-controlled dropping mechanism places packages in correct chutes
 7. **Return Cycle**: Robots return to induct zones for next packages
 
-## 📋 Competition Requirements
+## Competition Requirements
 
 - **Package Loading**: Only one package per robot at a time
 - **Color Coding**: Packages to same destination share the same color
@@ -55,7 +55,7 @@ This project implements an autonomous parcel sorting system using mobile robots 
 - **Loading Constraint**: Packages loaded only when robots are within induct zones
 - **Dynamic Mapping**: Robots autonomously decide destination-to-chute mappings
 
-## 🛠️ Setup and Installation
+## Setup and Installation
 
 ### Prerequisites
 - Python 3.x
@@ -70,6 +70,27 @@ This project implements an autonomous parcel sorting system using mobile robots 
 4. Configure MQTT network for robot communication
 5. Calibrate ArUco marker detection system
 
-## 🎥 Demo
+## Demo
 
 Watch our system in action: [Project Video](https://drive.google.com/drive/folders/1Xh0h8N9njuTw0Y-jtPcZ83GAZxs9W63K?usp=share_link)
+
+## Team
+
+### Development Team
+| Name | Specialization | Institution |
+|------|---------------|-------------|
+| Hitika Dalwadi | Electronics & Instrumentation Engineering | Nirma University |
+| Hetvi Patel | Electrical Engineering | Nirma University |
+| Darsh Patel | Electronics & Instrumentation Engineering | Nirma University |
+| Prasham Soni | Electronics & Instrumentation Engineering | Nirma University |
+| Rohan Dhruv | Electronics & Instrumentation Engineering | Nirma University |
+| Yash Battul | Electronics & Instrumentation Engineering | Nirma University |
+
+### Project Supervision
+**Prof. Harsh Kapadia**  
+Assistant Professor  
+Electronics & Instrumentation Engineering Department  
+Nirma University
+
+### Acknowledgments
+This project was developed as part of the undergraduate curriculum at Nirma University under the guidance of the Electronics & Instrumentation Engineering Department.
